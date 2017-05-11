@@ -11,6 +11,16 @@ Friendly impulse response reverb in Max/MSP with [HISSTools](https://github.com/
 
 3. In Max, open `fauxtiverb` in the Package Manager for more information.
 
+## Usage
+
+`fauxtiverb` contains three modules that convolve audio input with impulse responses to create a reverb effect:
+
+- `fauxtiverb-m2m~` — a mono-to-mono convolution module [CPU×1]
+- `fauxtiverb-m2s~` — a mono-to-stereo convolution module [CPU×2]
+- `fauxtiverb-s2s~` — a stereo-to-stereo convolution module [CPU×4]
+
+Each module has a built-in graphical interface when loaded in a `bpatcher` object, but can also be used as a normal object and adressed with messages. See the module help files for more details.
+
 ## Acknowledgments
 
 This package depends on the `multiconvolve~` external from [Alex Harker](http://www.alexanderjharker.co.uk/) and [Pierre Alexandre Tremblay](http://www.pierrealexandretremblay.com/)’s [HISSTools](https://github.com/HISSTools/HISSTools_Impulse_Response_Toolbox).
