@@ -1,0 +1,34 @@
+{
+	"author" : "Chris Swithinbank",
+	"description" : "Friendly impulse response reverb with HISSTools’s multiconvolve~.",
+	"displayname" : "",
+	"extends" : "",
+	"extensible" : 0,
+	"homepatcher" : "fauxtiverb-m2m~.maxhelp",
+	"max_version_max" : "none",
+	"max_version_min" : "none",
+	"name" : "fauxtiverb",
+	"os" : 	{
+		"macintosh" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "none"
+		}
+,
+		"windows" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "none"
+		}
+
+	}
+,
+	"tags" : [ "audio", "reverb", "convolution", "impulse response" ],
+	"version" : "0.0.1",
+	"website" : "https://github.com/delucis/fauxtiverb",
+	"filelist" : 	{
+    "externals": ["multiconvolve~.mxe", "multiconvolve~.mxe64", "multiconvolve~.mxo"],
+		"patchers" : [ "fauxtiverb-poly~.maxpat", "fauxtiverb-m2m~.maxpat" ],
+		"help" : [ "fauxtiverb-m2m~.maxhelp", "multiconvolve~.maxhelp" ],
+    "media": ["fx.ir-BerlinPhil_1-1.wav", "fx.ir-BerlinPhil_1-2.wav", "fx.ir-BerlinPhil_2-1.wav", "fx.ir-BerlinPhil_2-2.wav", "fx.ir-Chartres100_1-1.wav", "fx.ir-Chartres100_1-2.wav", "fx.ir-Chartres100_2-1.wav", "fx.ir-Chartres100_2-2.wav", "fx.ir-Chartres135_1-1.wav", "fx.ir-Chartres135_1-2.wav", "fx.ir-Chartres135_2-1.wav", "fx.ir-Chartres135_2-2.wav", "fx.ir-Chartres70_1-1.wav", "fx.ir-Chartres70_1-2.wav", "fx.ir-Chartres70_2-1.wav", "fx.ir-Chartres70_2-2.wav", "fx.ir-FrykerudsKyrka_1-1.wav", "fx.ir-FrykerudsKyrka_1-2.wav", "fx.ir-FrykerudsKyrka_2-1.wav", "fx.ir-FrykerudsKyrka_2-2.wav", "fx.ir-Konzerthaus-Wien_1-1.wav", "fx.ir-Konzerthaus-Wien_1-2.wav", "fx.ir-Konzerthaus-Wien_2-1.wav", "fx.ir-Konzerthaus-Wien_2-2.wav", "fx.ir-LullyHall_1-1.wav", "fx.ir-LullyHall_1-2.wav", "fx.ir-LullyHall_2-1.wav", "fx.ir-LullyHall_2-2.wav", "fx.ir-Margaretakyrkan_1-1.wav", "fx.ir-Margaretakyrkan_1-2.wav", "fx.ir-Margaretakyrkan_2-1.wav", "fx.ir-Margaretakyrkan_2-2.wav", "fx.ir-PalaceChapel_1-1.wav", "fx.ir-PalaceChapel_1-2.wav", "fx.ir-PalaceChapel_2-1.wav", "fx.ir-PalaceChapel_2-2.wav", "fx.ir-PhilipsHall_1-1.wav", "fx.ir-PhilipsHall_1-2.wav", "fx.ir-PhilipsHall_2-1.wav", "fx.ir-PhilipsHall_2-2.wav", "fx.ir-SaintOuen_1-1.wav", "fx.ir-SaintOuen_1-2.wav", "fx.ir-SaintOuen_2-1.wav", "fx.ir-SaintOuen_2-2.wav", "fx.ir-SidneyOpera_1-1.wav", "fx.ir-SidneyOpera_1-2.wav", "fx.ir-SidneyOpera_2-1.wav", "fx.ir-SidneyOpera_2-2.wav", "fx.ir-Stadium_1-1.wav", "fx.ir-Stadium_1-2.wav", "fx.ir-Stadium_2-1.wav", "fx.ir-Stadium_2-2.wav", "fx.ir-Teldex_1-1.wav", "fx.ir-Teldex_1-2.wav", "fx.ir-Teldex_2-1.wav", "fx.ir-Teldex_2-2.wav", "fx.ir-Uranienborg_1-1.wav", "fx.ir-Uranienborg_1-2.wav", "fx.ir-Uranienborg_2-1.wav", "fx.ir-Uranienborg_2-2.wav", "fx.ir-WoodenChurch_1-1.wav", "fx.ir-WoodenChurch_1-2.wav", "fx.ir-WoodenChurch_2-1.wav", "fx.ir-WoodenChurch_2-2.wav"]
+	}
+
+}
