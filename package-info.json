@@ -22,7 +22,7 @@
 	}
 ,
 	"tags" : [ "audio", "reverb", "convolution", "impulse response" ],
-	"version" : "0.1.0",
+	"version" : "0.1.1",
 	"website" : "https://github.com/delucis/fauxtiverb",
 	"filelist" : 	{
     "externals": ["multiconvolve~.mxe", "multiconvolve~.mxe64", "multiconvolve~.mxo"],
