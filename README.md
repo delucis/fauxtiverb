@@ -1,4 +1,4 @@
-# fauxtiverb [![Build Status](https://travis-ci.org/delucis/fauxtiverb.svg)](https://travis-ci.org/delucis/fauxtiverb) [![GitHub release](https://img.shields.io/github/release/delucis/fauxtiverb.svg?maxAge=2592000)](https://github.com/delucis/fauxtiverb/releases/latest)
+# fauxtiverb [![Build Status](https://travis-ci.org/delucis/fauxtiverb.svg)](https://travis-ci.org/delucis/fauxtiverb) [![GitHub release](https://img.shields.io/github/release/delucis/fauxtiverb.svg?maxAge=600)](https://github.com/delucis/fauxtiverb/releases/latest)
 
 Friendly impulse response reverb in Max/MSP with [HISSTools](https://github.com/HISSTools/HISSTools_Impulse_Response_Toolbox)’s `multiconvolve~`.
 
