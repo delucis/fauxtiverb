@@ -1,0 +1,23 @@
+{
+  "name": "fauxtiverb",
+  "version": "0.0.0",
+  "description": "Friendly impulse response reverb with HISSTools’s multiconvolve~.",
+  "license" : "BSD-3-Clause",
+  "scripts": {
+    "build": "npm run copy && npm run zip && npm run clean",
+    "copy": "cpy '**/*' '!fauxtiverb/*' '!.gitignore' '!.travis.yml' '!.gitattributes' '!node_modules/**/*' '!fauxtiverb.zip' 'fauxtiverb/' --parents --nodir",
+    "zip": "bestzip fauxtiverb.zip fauxtiverb/",
+    "clean": "rimraf fauxtiverb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delucis/fauxtiverb.git"
+  },
+  "author": "Chris Swithinbank <swithinbank@gmail.com> (http://chrisswithinbank.net/)",
+  "homepage": "https://github.com/delucis/fauxtiverb#readme",
+  "devDependencies": {
+    "bestzip": "^1.1.3",
+    "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
+    "rimraf": "^2.5.4"
+  }
+}
