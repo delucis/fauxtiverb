@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 156.0, 355.0, 657.0, 314.0 ],
+		"rect" : [ 156.0, 355.0, 596.0, 329.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 165.0, 77.0, 22.0 ],
+					"patching_rect" : [ 315.0, 180.0, 77.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend wet"
 				}
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 165.0, 90.0, 22.0 ],
+					"patching_rect" : [ 210.0, 180.0, 90.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend space"
 				}
@@ -69,9 +69,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 165.0, 195.0, 138.0, 22.0 ],
+					"patching_rect" : [ 210.0, 225.0, 197.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ fauxtiverb-poly~ 1"
+					"text" : "poly~ fauxtiverb-poly~ 1 @args 1-1"
 				}
 
 			}
@@ -226,7 +226,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 360.0, 225.0, 143.0, 22.0 ],
+					"patching_rect" : [ 435.0, 255.0, 143.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -248,7 +248,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 360.0, 255.0, 30.0, 30.0 ],
+					"patching_rect" : [ 435.0, 285.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -527,7 +527,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 15.0, 46.0, 18.0 ],
+					"patching_rect" : [ 135.0, 15.0, 46.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, -1.0, 46.0, 18.0 ],
 					"style" : "",
@@ -544,7 +544,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 382.0, 85.0, 46.0, 18.0 ],
+					"patching_rect" : [ 457.0, 85.0, 46.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 29.0, 46.0, 18.0 ],
 					"style" : "",
@@ -892,7 +892,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 14.0, 225.0, 321.0, 22.0 ],
+					"patching_rect" : [ 14.0, 255.0, 411.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -914,7 +914,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 255.0, 30.0, 30.0 ],
+					"patching_rect" : [ 15.0, 285.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -926,7 +926,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 135.0, 112.0, 22.0 ],
+					"patching_rect" : [ 435.0, 135.0, 112.0, 22.0 ],
 					"style" : "",
 					"text" : "expr ( $f1 + 1. ) / 2."
 				}
@@ -942,7 +942,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 360.0, 105.0, 90.0, 20.0 ],
+					"patching_rect" : [ 435.0, 105.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 45.0, 41.0, 12.0 ],
 					"saved_attribute_attributes" : 					{
@@ -986,7 +986,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 165.0, 45.0, 338.0, 22.0 ],
+					"patching_rect" : [ 210.0, 45.0, 368.0, 22.0 ],
 					"style" : "",
 					"text" : "t s s"
 				}
@@ -1000,7 +1000,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 165.0, 15.0, 90.0, 15.0 ],
+					"patching_rect" : [ 180.0, 15.0, 90.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 15.0, 41.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1016,19 +1016,6 @@
 					}
 ,
 					"varname" : "live.menu"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-12",
-					"linecount" : 16,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 525.0, 45.0, 109.0, 221.0 ],
-					"style" : "",
-					"text" : "BerlinPhil\nChartres70\nChartres100\nChartres135\nFrykerudsKyrka\nKonzerthausWien\nLullyHall\nMargaretakyrkan\nPalaceChapel\nPhilipsHall\nSaintOuen\nSidneyOpera\nStadium\nTeldex\nUranienborg\nWoodenChurch"
 				}
 
 			}
@@ -1056,7 +1043,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 100.5, 92.0, 117.0, 92.0, 117.0, 4.0, 174.5, 4.0 ],
+					"midpoints" : [ 100.5, 92.0, 117.0, 92.0, 117.0, 4.0, 189.5, 4.0 ],
 					"source" : [ "obj-17", 2 ]
 				}
 
@@ -1086,7 +1073,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 62.5, 99.0, 369.5, 99.0 ],
+					"midpoints" : [ 62.5, 99.0, 444.5, 99.0 ],
 					"source" : [ "obj-17", 1 ]
 				}
 
@@ -1180,6 +1167,7 @@
 					"destination" : [ "obj-32", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 444.5, 168.5, 415.5, 168.5 ],
 					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
@@ -1190,6 +1178,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 444.5, 168.0, 324.5, 168.0 ],
 					"order" : 2,
 					"source" : [ "obj-7", 0 ]
 				}
@@ -1197,8 +1186,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6" : [ "multislider", "multislider", 0 ],
-			"obj-14" : [ "live.menu", "live.menu", 0 ]
+			"obj-14" : [ "live.menu", "live.menu", 0 ],
+			"obj-6" : [ "multislider", "multislider", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1216,10 +1205,6 @@
 		"styles" : [ 			{
 				"name" : "hans002",
 				"default" : 				{
-					"bgcolor" : [ 0.664464, 0.639616, 0.388173, 1.0 ],
-					"accentcolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1230,6 +1215,10 @@
 						"autogradient" : 0
 					}
 ,
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.664464, 0.639616, 0.388173, 1.0 ],
+					"accentcolor" : [ 0.741176, 0.356863, 0.047059, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 11.0 ]
 				}
 ,
