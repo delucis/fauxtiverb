@@ -5,7 +5,7 @@
   "license": "BSD-3-Clause",
   "scripts": {
     "build": "npm run copy && npm run zip && npm run clean",
-    "copy": "cpy '**/*' '!fauxtiverb/*' '!.gitignore' '!.travis.yml' '!.gitattributes' '!node_modules/**/*' '!fauxtiverb.zip' 'fauxtiverb/' --parents --nodir",
+    "copy": "cpy '**/*' '!fauxtiverb/*' '!.gitignore' '!.travis.yml' '!.gitattributes' '!node_modules/**/*' '!fauxtiverb.zip' '!package.json' 'fauxtiverb/' --parents --nodir",
     "zip": "bestzip fauxtiverb.zip fauxtiverb/",
     "clean": "rimraf fauxtiverb"
   },
