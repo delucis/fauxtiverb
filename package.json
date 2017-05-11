@@ -1,8 +1,8 @@
 {
   "name": "fauxtiverb",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Friendly impulse response reverb with HISSTools’s multiconvolve~.",
-  "license" : "BSD-3-Clause",
+  "license": "BSD-3-Clause",
   "scripts": {
     "build": "npm run copy && npm run zip && npm run clean",
     "copy": "cpy '**/*' '!fauxtiverb/*' '!.gitignore' '!.travis.yml' '!.gitattributes' '!node_modules/**/*' '!fauxtiverb.zip' 'fauxtiverb/' --parents --nodir",
